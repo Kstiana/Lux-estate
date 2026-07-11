@@ -328,6 +328,7 @@
       LuxRender.renderProperties(document.getElementById('profile-listings-grid'), listings);
 
       document.getElementById('profile-reviews-grid').innerHTML = renderReviews();
+      LuxRender.observeReveal(document.getElementById('profile-reviews-grid'));
     });
   })();
 </script>
