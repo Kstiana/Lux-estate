@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="#F8F7F4"/>
+<rect x="10" y="10" width="380" height="280" fill="none" stroke="#C9A227" stroke-width="2"/>
+<rect x="20" y="20" width="360" height="90" fill="none" stroke="#5C5C5C" stroke-width="1.5"/>
+<text x="200.0" y="65.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="11" fill="#5C5C5C">Open Plan Living / Kitchen</text>
+<rect x="20" y="120" width="110" height="160" fill="none" stroke="#5C5C5C" stroke-width="1.5"/>
+<text x="75.0" y="200.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="11" fill="#5C5C5C">Bedroom 1</text>
+<rect x="140" y="120" width="110" height="80" fill="none" stroke="#5C5C5C" stroke-width="1.5"/>
+<text x="195.0" y="160.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="11" fill="#5C5C5C">Bedroom 2</text>
+<rect x="140" y="210" width="110" height="70" fill="none" stroke="#5C5C5C" stroke-width="1.5"/>
+<text x="195.0" y="245.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="11" fill="#5C5C5C">Bathroom</text>
+<rect x="260" y="120" width="120" height="160" fill="none" stroke="#5C5C5C" stroke-width="1.5"/>
+<text x="320.0" y="200.0" text-anchor="middle" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="11" fill="#5C5C5C">Terrace</text>
+<text x="200.0" y="284" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#8A8A8A" font-style="italic">Illustrative layout &#8212; not to scale</text>
+</svg>
