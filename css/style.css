@@ -1088,7 +1088,7 @@ body:not(.is-keyboard-user) :focus {
 
 .slider-arrow {
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   width: clamp(34px, 30px + 1vw, 44px);
   height: clamp(34px, 30px + 1vw, 44px);
@@ -1859,6 +1859,7 @@ body:not(.is-keyboard-user) :focus {
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-lg);
   border-bottom: 1px solid var(--border-color);
   margin-bottom: var(--space-xl);
