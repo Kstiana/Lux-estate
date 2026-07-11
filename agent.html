@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Profile | LuxEstate Luxury Real Estate</title>
+<meta name="description" content="View this LuxEstate advisor's profile, experience, languages spoken, and active property listings.">
+<link rel="canonical" href="https://luxestate.ng/agent.html">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Agent Profile | LuxEstate Luxury Real Estate">
+<meta property="og:description" content="View this LuxEstate advisor's profile, experience, languages spoken, and active property listings.">
+<meta property="og:image" content="https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200">
+<meta property="og:url" content="https://luxestate.ng/agent.html">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Agent Profile | LuxEstate Luxury Real Estate">
+<meta name="twitter:description" content="View this LuxEstate advisor's profile, experience, languages spoken, and active property listings.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%231A1A1A'/%3E%3Cpath d='M20 7 6 16v17h11V25h6v8h11V16L20 7Z' fill='none' stroke='%23C9A227' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M17 25h6' stroke='%23C9A227' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 4 4 15v21h11V24h10v12h11V15L20 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M16 24h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">Lux<span>Estate</span></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="agents.html" class="active">Agents</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-toggle-knob">
+          <i class="fa-solid fa-sun" style="font-size:11px"></i>
+        </span>
+      </button>
+      <div class="icon-btn-wrap">
+        <button type="button" class="btn-icon" id="favorites-drawer-btn" aria-label="View saved favorites">
+          <i class="fa-solid fa-heart"></i>
+          <span class="favorites-count-badge" id="favorites-count-badge" style="display:none">0</span>
+        </button>
+      </div>
+      <div class="auth-header-actions" id="auth-header-actions"></div>
+      <button type="button" class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu-backdrop"></div>
+<div class="mobile-menu">
+  <button type="button" class="mobile-menu-close btn-icon" aria-label="Close menu">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+  <nav class="mobile-nav-links" aria-label="Mobile Primary">
+    <a href="index.html">Home</a>
+    <a href="properties.html">Properties</a>
+    <a href="agents.html">Agents</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="mobile-auth-links" id="mobile-auth-links"></div>
+</div>
+
+<main>
+  <div class="container" style="padding-top:var(--space-xl)">
+    <div class="breadcrumbs" style="justify-content:flex-start;color:var(--text-secondary)">
+      <a href="index.html">Home</a>
+      <i class="fa-solid fa-chevron-right" style="font-size:10px"></i>
+      <a href="agents.html">Agents</a>
+      <i class="fa-solid fa-chevron-right" style="font-size:10px"></i>
+      <span id="breadcrumb-agent-name">Loading&hellip;</span>
+    </div>
+  </div>
+
+  <section class="section-pad" style="padding-top:var(--space-lg)">
+    <div class="container">
+
+      <div class="calculator-box reveal" style="display:flex;gap:var(--space-2xl);align-items:center;flex-wrap:wrap">
+        <div id="profile-avatar" class="agent-photo" style="width:160px;height:160px;flex-shrink:0;margin:0"></div>
+        <div style="flex:1;min-width:240px">
+          <h1 id="profile-name" style="font-size:var(--fs-36);margin-bottom:var(--space-2xs)">Loading&hellip;</h1>
+          <p id="profile-position" style="color:var(--gold-600);font-weight:600;margin-bottom:var(--space-md)"></p>
+          <p id="profile-bio" style="color:var(--text-secondary);line-height:var(--lh-relaxed);margin-bottom:var(--space-lg)"></p>
+          <div style="display:flex;gap:var(--space-sm);flex-wrap:wrap">
+            <a href="#" id="profile-phone-btn" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Agent</a>
+            <a href="#" id="profile-email-btn" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Email Agent</a>
+            <div class="agent-social" id="profile-social" style="justify-content:flex-start"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="details-quick-facts reveal" style="margin-top:var(--space-2xl)">
+        <div class="quick-fact">
+          <span class="quick-fact-value" id="stat-experience">&mdash;</span>
+          <span class="quick-fact-label">Years of Experience</span>
+        </div>
+        <div class="quick-fact">
+          <span class="quick-fact-value" id="stat-listings">&mdash;</span>
+          <span class="quick-fact-label">Active Listings</span>
+        </div>
+        <div class="quick-fact">
+          <span class="quick-fact-value" id="stat-languages">&mdash;</span>
+          <span class="quick-fact-label">Languages Spoken</span>
+        </div>
+      </div>
+
+      <div class="section-head reveal" style="margin-top:var(--space-3xl)">
+        <span class="eyebrow">Speaks</span>
+        <h2 class="section-title with-rule" style="font-size:var(--fs-28)">Languages</h2>
+      </div>
+      <div id="profile-languages" style="display:flex;gap:var(--space-sm);flex-wrap:wrap;margin-bottom:var(--space-xl)"></div>
+
+      <div class="section-head reveal" style="margin-top:var(--space-2xl)">
+        <span class="eyebrow">Currently Representing</span>
+        <h2 class="section-title with-rule">Active Listings</h2>
+      </div>
+      <div class="grid grid-3" id="profile-listings-grid"></div>
+
+      <div class="section-head reveal" style="margin-top:var(--space-4xl)">
+        <span class="eyebrow">Client Feedback</span>
+        <h2 class="section-title with-rule">Reviews</h2>
+      </div>
+      <div class="grid grid-2" id="profile-reviews-grid"></div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="brand footer-brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 4 4 15v21h11V24h10v12h11V15L20 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M16 24h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>Lux<span style="color:var(--gold-600)">Estate</span></span>
+      </a>
+      <p class="footer-desc">Curated luxury real estate across Lagos, Abuja, and Port Harcourt, guided by advisors who know every street they sell.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LuxEstate on Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LuxEstate on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="LuxEstate on X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="LuxEstate on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-heading">Explore</h4>
+      <div class="footer-links">
+        <a href="properties.html">Properties</a>
+        <a href="agents.html">Agents</a>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-heading">Property Types</h4>
+      <div class="footer-links">
+        <a href="properties.html?type=House">Houses</a>
+        <a href="properties.html?type=Apartment">Apartments</a>
+        <a href="properties.html?type=Villa">Villas</a>
+        <a href="properties.html?type=Land">Land</a>
+        <a href="properties.html?type=Commercial">Commercial</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-heading">Get In Touch</h4>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-7.5 7-12.5A7 7 0 0 0 5 9.5C5 14.5 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <span>4 Ozumba Mbadiwe Avenue, Victoria Island, Lagos</span>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.2-1.3a2 2 0 0 1 2.1-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2Z"/></svg>
+        <span>+234 700 589 3782</span>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        <span>hello@luxestate.ng</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>&copy; 2026 LuxEstate. All rights reserved.</span>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="back-to-top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<div class="favorites-drawer-backdrop" id="favorites-drawer-backdrop"></div>
+<aside class="favorites-drawer" id="favorites-drawer" aria-label="Saved favorites">
+  <div class="favorites-drawer-header">
+    <span class="favorites-drawer-title">Saved Favorites</span>
+    <button type="button" class="btn-icon" id="favorites-drawer-close" aria-label="Close favorites">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+  <div class="favorites-drawer-body" id="favorites-drawer-body"></div>
+  <div class="favorites-drawer-footer">
+    <a href="favorites.html" class="btn btn-secondary btn-block">View All Favorites</a>
+  </div>
+</aside>
+
+<a href="https://wa.me/2347005893782" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="js/app.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/favorites-drawer.js"></script>
+<script src="js/render.js"></script><script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const agentId = params.get('id');
+
+    const SAMPLE_REVIEWS = [
+      {
+        text: 'Patient, thorough, and never once made us feel rushed into a decision. We toured six properties before finding the right one, and the advice at every step was honest.',
+        author: 'Ngozi Adeyemi',
+        role: 'Buyer'
+      },
+      {
+        text: 'Handled a tricky negotiation on our behalf with a level head and a clear strategy. We ended up paying less than our original budget for a better property.',
+        author: 'Segun Afolabi',
+        role: 'Buyer'
+      }
+    ];
+
+    function socialIcon(platform) {
+      if (platform === 'instagram') return 'fa-instagram';
+      if (platform === 'linkedin') return 'fa-linkedin-in';
+      if (platform === 'twitter') return 'fa-x-twitter';
+      return 'fa-link';
+    }
+
+    function renderReviews() {
+      return SAMPLE_REVIEWS.map(function (review) {
+        return (
+          '<article class="card reveal">' +
+            '<div class="card-body">' +
+              '<svg style="width:28px;height:28px;color:var(--gold-600);margin-bottom:var(--space-md)" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5C4 6.5 2 9.5 2 13c0 2.8 2.2 5 5 5s5-2.2 5-5c0-2.5-1.8-4.6-4.2-5V5Zm11 0c-3 1.5-5 4.5-5 8 0 2.8 2.2 5 5 5s5-2.2 5-5c0-2.5-1.8-4.6-4.2-5V5Z"/></svg>' +
+              '<p style="color:var(--text-secondary);line-height:var(--lh-relaxed);margin-bottom:var(--space-md)">' + review.text + '</p>' +
+              '<p style="font-weight:600">' + review.author + '</p>' +
+              '<p style="font-size:var(--fs-12);color:var(--text-secondary)">' + review.role + '</p>' +
+            '</div>' +
+          '</article>'
+        );
+      }).join('');
+    }
+
+    Promise.all([LuxRender.loadAgents(), LuxRender.loadProperties()]).then(function (results) {
+      const agents = results[0];
+      const properties = results[1];
+      const agent = agents.find(function (a) { return a.id === agentId; });
+
+      if (!agent) {
+        document.getElementById('profile-name').textContent = 'Agent Not Found';
+        document.getElementById('profile-bio').textContent = 'This advisor profile could not be found. Browse our full team instead.';
+        document.getElementById('breadcrumb-agent-name').textContent = 'Not Found';
+        return;
+      }
+
+      document.title = agent.name + ' | LuxEstate Agents';
+      document.getElementById('breadcrumb-agent-name').textContent = agent.name;
+      const avatar = agent.avatar || { initials: '?', bg: '#F1EFE8', fg: '#5C5C5C' };
+      document.getElementById('profile-avatar').innerHTML = '<span class="avatar-initials" style="background:' + avatar.bg + ';color:' + avatar.fg + ';font-size:2.5rem">' + LuxRender.escapeHTML(avatar.initials) + '</span>';
+      document.getElementById('profile-name').textContent = agent.name;
+      document.getElementById('profile-position').textContent = agent.position;
+      document.getElementById('profile-bio').textContent = agent.bio;
+      document.getElementById('profile-phone-btn').href = 'tel:' + agent.phone.replace(/\s/g, '');
+      document.getElementById('profile-phone-btn').innerHTML = '<i class="fa-solid fa-phone"></i> ' + agent.phone;
+      document.getElementById('profile-email-btn').href = 'mailto:' + agent.email;
+
+      document.getElementById('stat-experience').textContent = agent.experienceYears + '+';
+      document.getElementById('stat-listings').textContent = agent.listingIds.length;
+      document.getElementById('stat-languages').textContent = agent.languages.length;
+
+      document.getElementById('profile-languages').innerHTML = agent.languages.map(function (lang) {
+        return '<span class="card-badge" style="position:static">' + LuxRender.escapeHTML(lang) + '</span>';
+      }).join('');
+
+      const socialLinks = Object.keys(agent.social || {}).map(function (platform) {
+        return '<a href="' + agent.social[platform] + '" target="_blank" rel="noopener" aria-label="' + agent.name + ' on ' + platform + '"><i class="fa-brands ' + socialIcon(platform) + '"></i></a>';
+      }).join('');
+      document.getElementById('profile-social').innerHTML = socialLinks;
+
+      const listings = properties.filter(function (p) { return agent.listingIds.indexOf(p.id) !== -1; });
+      LuxRender.renderProperties(document.getElementById('profile-listings-grid'), listings);
+
+      document.getElementById('profile-reviews-grid').innerHTML = renderReviews();
+    });
+  })();
+</script>
+
+</body>
+</html>

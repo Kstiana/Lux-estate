@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /login.html
+Disallow: /signup.html
+Disallow: /favorites.html
+
+Sitemap: https://luxestate.ng/sitemap.xml
