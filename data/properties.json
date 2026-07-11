@@ -1,0 +1,909 @@
+[
+  {
+    "id": "p001",
+    "title": "Waterfront Estate on Bourdillon",
+    "type": "House",
+    "status": "For Sale",
+    "price": 950000000,
+    "location": "Bourdillon Road, Ikoyi, Lagos",
+    "beds": 6,
+    "baths": 7,
+    "garage": 4,
+    "area": 820,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": true,
+    "featured": true,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A six-bedroom waterfront residence set behind private gates on one of Ikoyi's most guarded streets. The main house opens onto a landscaped lawn running down to a private jetty, with a separate two-bedroom guest wing and full staff quarters set discreetly to the rear of the plot. Interiors were finished by an Italian design firm in 2023 and remain in immaculate condition throughout.",
+    "amenities": [
+      "Swimming Pool",
+      "24/7 Security",
+      "Backup Generator",
+      "Smart Home System",
+      "Staff Quarters",
+      "Jetty Access",
+      "CCTV Surveillance",
+      "Borehole Water Supply"
+    ],
+    "nearby": [
+      "Falomo Roundabout",
+      "Muri Okunola Park",
+      "Lekki-Ikoyi Link Bridge"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a001",
+    "agentName": "Adaeze Okonkwo",
+    "coords": {
+      "lat": 6.4531,
+      "lng": 3.4356
+    },
+    "datePosted": "2026-04-18"
+  },
+  {
+    "id": "p002",
+    "title": "Contemporary Villa, Banana Island Crescent",
+    "type": "Villa",
+    "status": "For Sale",
+    "price": 1450000000,
+    "location": "Banana Island, Ikoyi, Lagos",
+    "beds": 7,
+    "baths": 8,
+    "garage": 5,
+    "area": 960,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": false,
+    "featured": true,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "This seven-bedroom villa sits on a full plot at the quiet end of Banana Island Crescent, built around a central courtyard pool that anchors every reception space. A private cinema, wine cellar, and rooftop entertaining deck with unobstructed lagoon views round out a home designed for large-scale hosting as much as everyday family life.",
+    "amenities": [
+      "Swimming Pool",
+      "Private Cinema",
+      "Wine Cellar",
+      "Rooftop Terrace",
+      "Smart Home System",
+      "24/7 Security",
+      "Backup Generator",
+      "Elevator"
+    ],
+    "nearby": [
+      "Ocean Parade Towers",
+      "Bella Vita",
+      "Lekki-Ikoyi Link Bridge"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a003",
+    "agentName": "Amara Chukwu",
+    "coords": {
+      "lat": 6.4429,
+      "lng": 3.4272
+    },
+    "datePosted": "2026-05-02"
+  },
+  {
+    "id": "p003",
+    "title": "Diplomatic Residence, Maitama District",
+    "type": "House",
+    "status": "For Sale",
+    "price": 680000000,
+    "location": "Maitama, Abuja",
+    "beds": 5,
+    "baths": 6,
+    "garage": 4,
+    "area": 710,
+    "furnished": false,
+    "pool": true,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "Built originally for a foreign mission and maintained to that standard ever since, this five-bedroom Maitama residence offers a formal reception wing, a separate family living area, and mature gardens shielded entirely from the road. Reinforced perimeter walls and a dedicated guardhouse make it a natural fit for diplomatic or high-security tenancy.",
+    "amenities": [
+      "Swimming Pool",
+      "24/7 Security",
+      "Backup Generator",
+      "Staff Quarters",
+      "Borehole Water Supply",
+      "CCTV Surveillance"
+    ],
+    "nearby": [
+      "Transcorp Hilton Abuja",
+      "Maitama District Park",
+      "Aso Rock"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a004",
+    "agentName": "Ibrahim Sule",
+    "coords": {
+      "lat": 9.0937,
+      "lng": 7.4913
+    },
+    "datePosted": "2026-03-27"
+  },
+  {
+    "id": "p004",
+    "title": "Garden Villa, Parkview Estate",
+    "type": "Villa",
+    "status": "For Rent",
+    "price": 22000000,
+    "location": "Parkview Estate, Ikoyi, Lagos",
+    "beds": 5,
+    "baths": 6,
+    "garage": 3,
+    "area": 640,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A fully furnished five-bedroom villa inside Parkview Estate's private security perimeter, available on an annual lease. The property backs onto the estate's jogging track and communal gardens, with a bright double-height living room and a self-contained boys' quarters ideal for live-in staff.",
+    "amenities": [
+      "Swimming Pool",
+      "24/7 Security",
+      "Backup Generator",
+      "Fitted Kitchen",
+      "Air Conditioning",
+      "Covered Parking"
+    ],
+    "nearby": [
+      "Parkview Estate Gardens",
+      "Lekki-Ikoyi Link Bridge",
+      "Ikoyi Golf Club"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a001",
+    "agentName": "Adaeze Okonkwo",
+    "coords": {
+      "lat": 6.4589,
+      "lng": 3.4271
+    },
+    "datePosted": "2026-06-09"
+  },
+  {
+    "id": "p005",
+    "title": "Skyline Residence, Eko Pearl Towers",
+    "type": "Apartment",
+    "status": "For Sale",
+    "price": 320000000,
+    "location": "Victoria Island, Lagos",
+    "beds": 3,
+    "baths": 4,
+    "garage": 2,
+    "area": 280,
+    "furnished": true,
+    "pool": true,
+    "garden": false,
+    "petFriendly": false,
+    "featured": true,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/4916028/pexels-photo-4916028.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/17940782/pexels-photo-17940782.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/34443159/pexels-photo-34443159.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A high-floor three-bedroom apartment inside one of Victoria Island's most established residential towers, with floor-to-ceiling glazing framing unobstructed Atlantic views. Building amenities include a full gym, infinity pool deck, and round-the-clock concierge, making this a turnkey option for buyers who want luxury without upkeep.",
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Concierge Service",
+      "Elevator",
+      "24/7 Security",
+      "Smart Home System"
+    ],
+    "nearby": [
+      "Eko Hotel",
+      "Landmark Beach",
+      "Civic Towers"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a005",
+    "agentName": "Folasade Adewale",
+    "coords": {
+      "lat": 6.4281,
+      "lng": 3.4219
+    },
+    "datePosted": "2026-05-21"
+  },
+  {
+    "id": "p006",
+    "title": "Grade-A Office Tower, VI Waterfront",
+    "type": "Commercial",
+    "status": "For Sale",
+    "price": 4200000000,
+    "location": "Ahmadu Bello Way, Victoria Island, Lagos",
+    "beds": 0,
+    "baths": 12,
+    "garage": 60,
+    "area": 6400,
+    "furnished": false,
+    "pool": false,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/29443801/pexels-photo-29443801.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/18356512/pexels-photo-18356512.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/7078620/pexels-photo-7078620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/37293743/pexels-photo-37293743.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A fourteen-floor Grade-A office tower fully let to a mix of multinational tenants on staggered lease terms, offering a stabilized yield from day one. The building includes backup power for full-load operation, a five-level basement car park, and a ground-floor retail concourse currently anchored by a banking hall and a coffee chain.",
+    "amenities": [
+      "Backup Generator",
+      "24/7 Security",
+      "Elevator",
+      "CCTV Surveillance",
+      "Covered Parking"
+    ],
+    "nearby": [
+      "Eko Hotel",
+      "Civic Towers",
+      "Federal Palace Hotel"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a002",
+    "agentName": "Tunde Bakare",
+    "coords": {
+      "lat": 6.4271,
+      "lng": 3.4208
+    },
+    "datePosted": "2026-02-14"
+  },
+  {
+    "id": "p007",
+    "title": "Modern Courtyard House, Lekki Phase 1",
+    "type": "House",
+    "status": "For Sale",
+    "price": 385000000,
+    "location": "Lekki Phase 1, Lagos",
+    "beds": 5,
+    "baths": 5,
+    "garage": 3,
+    "area": 520,
+    "furnished": false,
+    "pool": true,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": true,
+    "images": [
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "Completed in early 2026, this five-bedroom home is arranged around a central courtyard that pulls natural light and cross ventilation through every room. Clean concrete and timber detailing throughout gives it a distinctly architect-led feel rarely found at this price point in Lekki Phase 1.",
+    "amenities": [
+      "Swimming Pool",
+      "Solar Power",
+      "Backup Generator",
+      "24/7 Security",
+      "Fitted Kitchen"
+    ],
+    "nearby": [
+      "Circle Mall Lekki",
+      "Lekki Conservation Centre",
+      "Chevron Drive"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a003",
+    "agentName": "Amara Chukwu",
+    "coords": {
+      "lat": 6.4478,
+      "lng": 3.4726
+    },
+    "datePosted": "2026-06-01"
+  },
+  {
+    "id": "p008",
+    "title": "Hilltop Villa, Asokoro District",
+    "type": "Villa",
+    "status": "For Sale",
+    "price": 890000000,
+    "location": "Asokoro, Abuja",
+    "beds": 6,
+    "baths": 7,
+    "garage": 4,
+    "area": 780,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": false,
+    "featured": true,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "Perched on one of Asokoro's highest points, this six-bedroom villa commands sweeping views over the district toward Aso Rock. A sunken living room, indoor-outdoor dining pavilion, and a separate guest chalet make it especially well suited to entertaining at scale.",
+    "amenities": [
+      "Swimming Pool",
+      "24/7 Security",
+      "Backup Generator",
+      "Smart Home System",
+      "Staff Quarters",
+      "Borehole Water Supply"
+    ],
+    "nearby": [
+      "Asokoro District Hospital",
+      "Nigerian National Mosque",
+      "Transcorp Hilton Abuja"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a004",
+    "agentName": "Ibrahim Sule",
+    "coords": {
+      "lat": 9.0453,
+      "lng": 7.5323
+    },
+    "datePosted": "2026-04-30"
+  },
+  {
+    "id": "p009",
+    "title": "Foreshore Apartment, Osborne Estate",
+    "type": "Apartment",
+    "status": "For Rent",
+    "price": 14500000,
+    "location": "Osborne Foreshore, Ikoyi, Lagos",
+    "beds": 3,
+    "baths": 4,
+    "garage": 2,
+    "area": 260,
+    "furnished": true,
+    "pool": true,
+    "garden": false,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/6456769/pexels-photo-6456769.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/17672408/pexels-photo-17672408.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/7673904/pexels-photo-7673904.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/21284473/pexels-photo-21284473.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A three-bedroom riverside apartment inside the gated Osborne Foreshore Estate, offered fully furnished on an annual lease. Wraparound balconies face directly onto the water, and the estate's private marina gives residents direct boat access into the wider Lagos waterways.",
+    "amenities": [
+      "Swimming Pool",
+      "24/7 Security",
+      "Gym",
+      "Backup Generator",
+      "Covered Parking"
+    ],
+    "nearby": [
+      "Osborne Foreshore Marina",
+      "Falomo Bridge",
+      "Ikoyi Club 1938"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a001",
+    "agentName": "Adaeze Okonkwo",
+    "coords": {
+      "lat": 6.4483,
+      "lng": 3.4402
+    },
+    "datePosted": "2026-05-28"
+  },
+  {
+    "id": "p010",
+    "title": "Atlantic-Facing Duplex, Eko Atlantic",
+    "type": "Apartment",
+    "status": "For Sale",
+    "price": 540000000,
+    "location": "Eko Atlantic City, Lagos",
+    "beds": 4,
+    "baths": 5,
+    "garage": 2,
+    "area": 340,
+    "furnished": true,
+    "pool": true,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": true,
+    "images": [
+      "https://images.pexels.com/photos/17672408/pexels-photo-17672408.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/21284473/pexels-photo-21284473.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/4916028/pexels-photo-4916028.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A duplex penthouse unit within Eko Atlantic's newest residential phase, delivered with a private rooftop terrace and unobstructed sea views on three sides. As one of the first fully reclaimed districts of its kind in West Africa, Eko Atlantic offers infrastructure resilience that older coastal neighbourhoods cannot match.",
+    "amenities": [
+      "Swimming Pool",
+      "Rooftop Terrace",
+      "Concierge Service",
+      "Elevator",
+      "Smart Home System",
+      "24/7 Security"
+    ],
+    "nearby": [
+      "Eko Atlantic Marina District",
+      "Landmark Beach",
+      "Great Wall of Lagos"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a005",
+    "agentName": "Folasade Adewale",
+    "coords": {
+      "lat": 6.4083,
+      "lng": 3.4083
+    },
+    "datePosted": "2026-06-15"
+  },
+  {
+    "id": "p011",
+    "title": "Classic Family Home, Ikeja GRA",
+    "type": "House",
+    "status": "For Sale",
+    "price": 210000000,
+    "location": "Ikeja GRA, Lagos",
+    "beds": 4,
+    "baths": 4,
+    "garage": 3,
+    "area": 480,
+    "furnished": false,
+    "pool": true,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "Set on a mature tree-lined street in Ikeja GRA, this four-bedroom family home retains much of its original 1980s character while having been fully rewired, replumbed, and re-roofed within the last five years. A generous back garden and separate boys' quarters round out a property built for long-term family use.",
+    "amenities": [
+      "Swimming Pool",
+      "Backup Generator",
+      "24/7 Security",
+      "Fitted Kitchen",
+      "Borehole Water Supply"
+    ],
+    "nearby": [
+      "Ikeja Golf Club",
+      "Murtala Muhammed Airport",
+      "Ikeja City Mall"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a003",
+    "agentName": "Amara Chukwu",
+    "coords": {
+      "lat": 6.5833,
+      "lng": 3.35
+    },
+    "datePosted": "2026-03-11"
+  },
+  {
+    "id": "p012",
+    "title": "Prime Residential Plot, Guzape District",
+    "type": "Land",
+    "status": "For Sale",
+    "price": 165000000,
+    "location": "Guzape District, Abuja",
+    "beds": 0,
+    "baths": 0,
+    "garage": 0,
+    "area": 2000,
+    "furnished": false,
+    "pool": false,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/8322786/pexels-photo-8322786.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/8747714/pexels-photo-8747714.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A fenced and gated 2,000 square metre residential plot in Guzape, fully surveyed with an approved Certificate of Occupancy in hand. The land sits on gently sloping terrain with existing road access and mains electricity already run to the boundary, ready for immediate development.",
+    "amenities": [
+      "Borehole Water Supply",
+      "24/7 Security"
+    ],
+    "nearby": [
+      "Guzape Hills",
+      "Nnamdi Azikiwe International Airport",
+      "Central Business District Abuja"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a006",
+    "agentName": "Chinedu Eze",
+    "coords": {
+      "lat": 9.0272,
+      "lng": 7.5153
+    },
+    "datePosted": "2026-01-22"
+  },
+  {
+    "id": "p013",
+    "title": "Executive Townhouse, Maitama",
+    "type": "House",
+    "status": "For Rent",
+    "price": 38000000,
+    "location": "Maitama, Abuja",
+    "beds": 4,
+    "baths": 5,
+    "garage": 3,
+    "area": 460,
+    "furnished": true,
+    "pool": false,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A four-bedroom executive townhouse within a small serviced enclave in Maitama, offered fully furnished on flexible lease terms. Shared estate amenities include a gym and children's play area, while each unit retains its own private garden and covered parking bay.",
+    "amenities": [
+      "Gym",
+      "24/7 Security",
+      "Backup Generator",
+      "Fitted Kitchen",
+      "Covered Parking"
+    ],
+    "nearby": [
+      "Maitama District Park",
+      "Transcorp Hilton Abuja",
+      "Yedi Mall"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a004",
+    "agentName": "Ibrahim Sule",
+    "coords": {
+      "lat": 9.0981,
+      "lng": 7.4872
+    },
+    "datePosted": "2026-05-06"
+  },
+  {
+    "id": "p014",
+    "title": "New-Build Villa, Ikoyi Crescent",
+    "type": "Villa",
+    "status": "For Sale",
+    "price": 1100000000,
+    "location": "Ikoyi Crescent, Lagos",
+    "beds": 6,
+    "baths": 7,
+    "garage": 4,
+    "area": 850,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": false,
+    "featured": true,
+    "isNew": true,
+    "images": [
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/24461272/pexels-photo-24461272.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "Completed in the first quarter of 2026, this six-bedroom villa is the newest build on Ikoyi Crescent, finished with imported Italian marble throughout and a home automation system controlling lighting, security, and climate from a single interface. A rooftop pool deck offers uninterrupted views toward the lagoon.",
+    "amenities": [
+      "Swimming Pool",
+      "Smart Home System",
+      "Rooftop Terrace",
+      "24/7 Security",
+      "Backup Generator",
+      "Elevator",
+      "Sauna"
+    ],
+    "nearby": [
+      "Ikoyi Club 1938",
+      "Falomo Shopping Centre",
+      "Lekki-Ikoyi Link Bridge"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a001",
+    "agentName": "Adaeze Okonkwo",
+    "coords": {
+      "lat": 6.4544,
+      "lng": 3.4381
+    },
+    "datePosted": "2026-06-20"
+  },
+  {
+    "id": "p015",
+    "title": "Serviced Apartment, VI Business District",
+    "type": "Apartment",
+    "status": "For Rent",
+    "price": 9800000,
+    "location": "Victoria Island, Lagos",
+    "beds": 2,
+    "baths": 3,
+    "garage": 1,
+    "area": 190,
+    "furnished": true,
+    "pool": true,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/34443159/pexels-photo-34443159.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/4916028/pexels-photo-4916028.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/17672408/pexels-photo-17672408.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A two-bedroom serviced apartment aimed at executives relocating to Victoria Island on short to medium-term assignments. Weekly housekeeping, a shared rooftop pool, and proximity to the district's main business corridor make this one of the most requested units on our rental books.",
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Concierge Service",
+      "24/7 Security",
+      "Air Conditioning"
+    ],
+    "nearby": [
+      "Civic Towers",
+      "Eko Hotel",
+      "Kingsway Road"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a005",
+    "agentName": "Folasade Adewale",
+    "coords": {
+      "lat": 6.4301,
+      "lng": 3.4198
+    },
+    "datePosted": "2026-06-04"
+  },
+  {
+    "id": "p016",
+    "title": "Waterside Bungalow, Lekki Phase 1",
+    "type": "House",
+    "status": "For Rent",
+    "price": 16500000,
+    "location": "Lekki Phase 1, Lagos",
+    "beds": 3,
+    "baths": 3,
+    "garage": 2,
+    "area": 310,
+    "furnished": true,
+    "pool": false,
+    "garden": true,
+    "petFriendly": true,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A single-storey three-bedroom bungalow within a small waterside close in Lekki Phase 1, offered furnished on an annual lease. The layout suits a small family or a couple who entertain often, with a covered patio opening directly onto a private stretch of the canal.",
+    "amenities": [
+      "Backup Generator",
+      "24/7 Security",
+      "Fitted Kitchen",
+      "Borehole Water Supply"
+    ],
+    "nearby": [
+      "Circle Mall Lekki",
+      "Chevron Drive",
+      "Oniru Private Beach"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a003",
+    "agentName": "Amara Chukwu",
+    "coords": {
+      "lat": 6.4512,
+      "lng": 3.4689
+    },
+    "datePosted": "2026-04-11"
+  },
+  {
+    "id": "p017",
+    "title": "Presidential-Style Villa, Asokoro Hills",
+    "type": "Villa",
+    "status": "For Sale",
+    "price": 1250000000,
+    "location": "Asokoro, Abuja",
+    "beds": 8,
+    "baths": 9,
+    "garage": 6,
+    "area": 1100,
+    "furnished": true,
+    "pool": true,
+    "garden": true,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/28729467/pexels-photo-28729467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/29453302/pexels-photo-29453302.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "An eight-bedroom estate spread across a full hilltop plot in Asokoro, built to accommodate both formal state-level entertaining and private family living under one roof. Separate east and west wings allow the main residence to host guests without compromising family privacy, and a helipad-ready lawn sits to the rear of the property.",
+    "amenities": [
+      "Swimming Pool",
+      "Tennis Court",
+      "24/7 Security",
+      "Backup Generator",
+      "Staff Quarters",
+      "Smart Home System",
+      "Wine Cellar"
+    ],
+    "nearby": [
+      "Aso Rock",
+      "Nigerian National Mosque",
+      "Asokoro District Hospital"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a004",
+    "agentName": "Ibrahim Sule",
+    "coords": {
+      "lat": 9.0417,
+      "lng": 7.5289
+    },
+    "datePosted": "2026-02-08"
+  },
+  {
+    "id": "p018",
+    "title": "Signature Penthouse, Banana Island Towers",
+    "type": "Apartment",
+    "status": "For Sale",
+    "price": 780000000,
+    "location": "Banana Island, Ikoyi, Lagos",
+    "beds": 5,
+    "baths": 6,
+    "garage": 3,
+    "area": 480,
+    "furnished": true,
+    "pool": true,
+    "garden": false,
+    "petFriendly": false,
+    "featured": true,
+    "isNew": true,
+    "images": [
+      "https://images.pexels.com/photos/17672408/pexels-photo-17672408.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/26859026/pexels-photo-26859026.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/21284473/pexels-photo-21284473.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/4916028/pexels-photo-4916028.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "The full-floor penthouse atop Banana Island Towers, released for the first time since the building's completion. Wraparound terraces face both the lagoon and the Lekki-Ikoyi Link Bridge, and the unit includes a private lift lobby, staff quarters, and a dedicated wine room built to cellar temperature.",
+    "amenities": [
+      "Swimming Pool",
+      "Rooftop Terrace",
+      "Wine Cellar",
+      "Concierge Service",
+      "Elevator",
+      "Smart Home System",
+      "24/7 Security"
+    ],
+    "nearby": [
+      "Ocean Parade Towers",
+      "Lekki-Ikoyi Link Bridge",
+      "Ikoyi Club 1938"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-3.svg",
+    "agentId": "a005",
+    "agentName": "Folasade Adewale",
+    "coords": {
+      "lat": 6.4436,
+      "lng": 3.4298
+    },
+    "datePosted": "2026-06-25"
+  },
+  {
+    "id": "p019",
+    "title": "Retail & Office Plaza, Ikeja",
+    "type": "Commercial",
+    "status": "For Sale",
+    "price": 1800000000,
+    "location": "Awolowo Way, Ikeja, Lagos",
+    "beds": 0,
+    "baths": 8,
+    "garage": 40,
+    "area": 3200,
+    "furnished": false,
+    "pool": false,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/18356512/pexels-photo-18356512.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/7078620/pexels-photo-7078620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/37293743/pexels-photo-37293743.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/29443801/pexels-photo-29443801.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A five-storey mixed-use plaza on Awolowo Way combining ground-floor retail units with four floors of leased office space above. Current occupancy sits at ninety-two percent across a diversified tenant base, with an on-site facilities team already in place to transfer with the sale.",
+    "amenities": [
+      "Backup Generator",
+      "24/7 Security",
+      "Elevator",
+      "CCTV Surveillance",
+      "Covered Parking"
+    ],
+    "nearby": [
+      "Ikeja City Mall",
+      "Murtala Muhammed Airport",
+      "Computer Village"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-1.svg",
+    "agentId": "a002",
+    "agentName": "Tunde Bakare",
+    "coords": {
+      "lat": 6.6018,
+      "lng": 3.3515
+    },
+    "datePosted": "2026-03-03"
+  },
+  {
+    "id": "p020",
+    "title": "Waterfront Development Land, GRA Phase 2",
+    "type": "Land",
+    "status": "For Sale",
+    "price": 95000000,
+    "location": "GRA Phase 2, Port Harcourt",
+    "beds": 0,
+    "baths": 0,
+    "garage": 0,
+    "area": 1500,
+    "furnished": false,
+    "pool": false,
+    "garden": false,
+    "petFriendly": false,
+    "featured": false,
+    "isNew": false,
+    "images": [
+      "https://images.pexels.com/photos/8747714/pexels-photo-8747714.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/8322786/pexels-photo-8322786.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "description": "A 1,500 square metre waterfront parcel in Port Harcourt's GRA Phase 2, one of the last remaining undeveloped riverfront plots in the district. The land comes with an approved Governor's Consent already processed and a recent survey plan confirming clean boundaries on all sides.",
+    "amenities": [
+      "Borehole Water Supply"
+    ],
+    "nearby": [
+      "Port Harcourt Waterfront",
+      "Isaac Boro Park",
+      "Port Harcourt Country Club"
+    ],
+    "floorPlanImg": "assets/floorplans/plan-2.svg",
+    "agentId": "a006",
+    "agentName": "Chinedu Eze",
+    "coords": {
+      "lat": 4.8156,
+      "lng": 7.0498
+    },
+    "datePosted": "2026-01-09"
+  }
+]

@@ -1,1 +1,68 @@
-
+[
+  {
+    "id": "b001",
+    "title": "Inside Lagos's Quiet Luxury Boom: What Ikoyi Prices Reveal",
+    "category": "Market Insights",
+    "excerpt": "Prime Ikoyi has posted its steepest three-year price climb since 2014. We break down what is actually driving the numbers.",
+    "body": "Ikoyi has always carried a certain gravity in the Lagos property market, but the past three years have pushed prime addresses into an entirely new bracket. Waterfront plots that traded quietly in the mid-2010s are now anchoring some of the highest per-square-metre figures on the continent.\n\nPart of the story is supply. Very little new land has come onto the market in the last decade, and the plots that do surface are almost always absorbed by developers before they reach public listing. The other part is demand from a growing class of returnees and diaspora investors who want a physical foothold in Lagos that also functions as a store of value.\n\nWhat this means for buyers is simple but uncomfortable: timing now matters more than negotiation. The properties that hold their value best are the ones bought before a development cycle completes, not after. For sellers, it means patience pays. Listings priced correctly at the outset are moving in under sixty days, while overpriced ones can sit for a year or more.\n\nOur advice to anyone watching this market from the sidelines is to get pre-qualified financing in place before you start touring, because the properties worth having rarely wait.",
+    "image": "https://images.pexels.com/photos/27857461/pexels-photo-27857461.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Adaeze Okonkwo",
+    "date": "2026-05-14",
+    "popular": true
+  },
+  {
+    "id": "b002",
+    "title": "A Buyer's Guide to Title Verification in Nigerian Real Estate",
+    "category": "Buying Guide",
+    "excerpt": "Before you sign anything, understand the difference between a Certificate of Occupancy, a Governor's Consent, and a plain survey plan.",
+    "body": "Nothing derails a luxury purchase faster than a title problem discovered after money has changed hands. In Nigeria, the paperwork trail is more layered than in many markets, and skipping a step can leave a buyer holding a property they cannot legally develop, mortgage, or resell.\n\nThe Certificate of Occupancy, commonly shortened to C of O, is the document most buyers ask about first, and for good reason. It is issued by the state government and confirms that the holder has a statutory right of occupancy over the land. Without it, a property exists in a legal grey zone that banks and serious buyers will avoid.\n\nEqually important is the Governor's Consent, required whenever a property with an existing C of O changes hands. Skipping this step does not void the sale outright, but it does leave the transaction incomplete in the eyes of the law, which becomes a serious problem the moment the new owner tries to sell, mortgage, or develop further.\n\nA survey plan alone is not proof of ownership. It confirms the boundaries of a plot, nothing more. Buyers who treat a survey plan as sufficient documentation are taking on risk they may not fully understand until it is too late.\n\nOur recommendation for every transaction above a modest threshold is independent legal verification at the land registry, not just a review of documents handed over by the seller. It costs a small percentage of the purchase price and has saved our clients from at least a dozen bad deals over the years.",
+    "image": "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Chinedu Eze",
+    "date": "2026-04-02",
+    "popular": true
+  },
+  {
+    "id": "b003",
+    "title": "Designing for Lagos Heat: Interiors That Actually Stay Cool",
+    "category": "Interior Design",
+    "excerpt": "Marble floors and cross ventilation are doing more work in luxury Lagos homes than any air conditioning unit.",
+    "body": "Every interior designer working in Lagos eventually learns the same lesson: aesthetics and thermal comfort are not separate conversations here, they are the same conversation. A home that looks stunning in photographs but runs hot all afternoon will frustrate its owners within a month.\n\nMaterial choice carries more weight than most buyers expect. Marble and polished porcelain hold a noticeably cooler surface temperature than timber or dense carpet, which is why so many of the newer Banana Island builds lean almost entirely on stone flooring in living areas. It is not purely a style statement, it is a climate response dressed as one.\n\nCross ventilation is the other quiet hero. Homes designed with openings on opposing walls, even when those openings are mostly decorative louvres rather than full windows, move air in a way that reduces reliance on air conditioning by a meaningful margin. Several of the villas we represent were retrofitted specifically to reopen sightlines that earlier renovations had sealed shut.\n\nFor owners renovating an older property, our first suggestion is almost always the same: before choosing finishes, map how air currently moves through the home at different times of day. The best-looking interior in the world will not fix a room that traps heat.",
+    "image": "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Amara Chukwu",
+    "date": "2026-03-19",
+    "popular": false
+  },
+  {
+    "id": "b004",
+    "title": "Why Abuja's Maitama District Keeps Outperforming Forecasts",
+    "category": "Investment",
+    "excerpt": "Every analyst underestimates Maitama. Here is the structural reason the district keeps beating expectations.",
+    "body": "Maitama has a habit of embarrassing forecasters. Analysts model it like any other high-end district, apply standard appreciation curves, and then watch actual sale prices clear those projections year after year.\n\nThe explanation is structural rather than sentimental. Maitama's zoning has remained deliberately restrictive since the district was first laid out, which means the ceiling on new supply is lower than in almost any comparable Abuja neighbourhood. Asokoro comes close, but even there, infill development has chipped away at scarcity in a way Maitama has mostly avoided.\n\nThe other factor is tenancy composition. A disproportionate share of Maitama's rental stock is occupied by diplomatic missions, multinational executives, and senior government-adjacent tenants, all of whom pay in a currency-hedged manner that insulates landlords from some of the volatility that hits other districts harder during periods of naira depreciation.\n\nFor investors weighing Maitama against faster-growing but higher-supply districts elsewhere in Abuja, the calculus depends entirely on time horizon. Short-term flippers will find better margins elsewhere. Buyers thinking in ten-year terms are hard pressed to find a more defensible address in the capital.",
+    "image": "https://images.pexels.com/photos/20453360/pexels-photo-20453360.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Ibrahim Sule",
+    "date": "2026-02-27",
+    "popular": true
+  },
+  {
+    "id": "b005",
+    "title": "Renting vs Buying a Victoria Island Apartment in 2026",
+    "category": "Lifestyle",
+    "excerpt": "Service charges have changed the math on VI apartment living. We ran the numbers so you do not have to.",
+    "body": "For years, the rent-versus-buy conversation on Victoria Island tilted decisively toward buying, provided a household could clear the upfront capital hurdle. That calculus has shifted, and the reason is service charges rather than purchase prices.\n\nNewer towers along the VI waterfront now carry annual service charges that, in some buildings, approach a meaningful fraction of the unit's annual rental value. Owners are on the hook for these charges regardless of occupancy, while tenants simply walk away at the end of a lease if a building's costs spiral.\n\nThis does not make buying the wrong choice, but it does change who buying makes sense for. Owner-occupiers planning to stay put for five years or more still come out ahead once appreciation is factored in. Investors chasing short-term rental yield need to model service charges explicitly rather than relying on headline rent figures, because several buildings we track have seen effective yields compressed by two full percentage points once charges are included.\n\nOur practical advice for anyone weighing this decision today is to request three years of service charge statements from the building's management before signing anything, whether renting or buying. The number on the glossy brochure and the number tenants actually pay are not always the same figure.",
+    "image": "https://images.pexels.com/photos/34443159/pexels-photo-34443159.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Folasade Adewale",
+    "date": "2026-01-30",
+    "popular": false
+  },
+  {
+    "id": "b006",
+    "title": "Commercial Real Estate After the Hybrid Shift: What Landlords Got Wrong",
+    "category": "Market Insights",
+    "excerpt": "Lagos office landlords bet on a full return to five-day attendance. The bet mostly did not pay off.",
+    "body": "When hybrid work took hold globally, most Lagos commercial landlords assumed it was a temporary disruption rather than a permanent shift in how office space gets used. That assumption shaped leasing strategy for nearly two years, and it is now visibly out of step with tenant behaviour.\n\nOccupancy data from the buildings we manage shows a consistent pattern: floors sized for a company's full headcount now sit at roughly sixty to seventy percent capacity on an average weekday, with attendance clustering around midweek. Landlords who held firm on old-model, full-floor leases have seen renewal negotiations grow noticeably harder, while those who pivoted early toward flexible, smaller-footprint leases with shared amenity floors have kept occupancy far more stable.\n\nThe buildings performing best right now share a common feature: they were redesigned around collaboration space rather than individual desks, on the theory that companies now use the office primarily for the things remote work cannot replicate well. That bet has paid off. Tenants are willing to pay a premium for well-designed shared space even as they shrink their private footprint.\n\nFor landlords still holding out for a full return to pre-pandemic attendance patterns, our honest read is that the wait is unlikely to end the way they are hoping. The buildings adapting now are the ones capturing the leasing activity that does still exist.",
+    "image": "https://images.pexels.com/photos/37293743/pexels-photo-37293743.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "author": "Tunde Bakare",
+    "date": "2025-12-11",
+    "popular": false
+  }
+]

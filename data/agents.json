@@ -1,0 +1,172 @@
+[
+  {
+    "id": "a001",
+    "name": "Adaeze Okonkwo",
+    "position": "Senior Luxury Property Advisor",
+    "experienceYears": 12,
+    "phone": "+234 803 421 7756",
+    "email": "adaeze.okonkwo@luxestate.ng",
+    "bio": "Adaeze has spent over a decade placing discerning families into the finest waterfront and gated addresses across Lagos. Her negotiation style is quiet, precise, and relentlessly protective of her clients' interests. She is best known for closing three of the five highest-value residential sales recorded in Ikoyi over the past two years.",
+    "languages": [
+      "English",
+      "Igbo",
+      "French"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/adaeze.luxestate",
+      "linkedin": "https://linkedin.com/in/adaezeokonkwo",
+      "twitter": "https://twitter.com/adaezehomes"
+    },
+    "listingIds": [
+      "p001",
+      "p004",
+      "p009",
+      "p014"
+    ],
+    "avatar": {
+      "initials": "AO",
+      "bg": "#F3E9C9",
+      "fg": "#A2811C"
+    }
+  },
+  {
+    "id": "a002",
+    "name": "Tunde Bakare",
+    "position": "Head of Commercial Real Estate",
+    "experienceYears": 15,
+    "phone": "+234 812 663 0921",
+    "email": "tunde.bakare@luxestate.ng",
+    "bio": "Tunde leads our commercial desk, structuring deals for corporate headquarters, retail flagships, and mixed-use developments across Lagos and Abuja. Before joining LuxEstate, he spent nine years in real estate investment banking, giving him a rare fluency in both bricks and balance sheets.",
+    "languages": [
+      "English",
+      "Yoruba"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/tunde.commercial",
+      "linkedin": "https://linkedin.com/in/tundebakare"
+    },
+    "listingIds": [
+      "p006",
+      "p019"
+    ],
+    "avatar": {
+      "initials": "TB",
+      "bg": "#E8E4DB",
+      "fg": "#5C5C5C"
+    }
+  },
+  {
+    "id": "a003",
+    "name": "Amara Chukwu",
+    "position": "Residential Sales Director",
+    "experienceYears": 9,
+    "phone": "+234 705 218 4432",
+    "email": "amara.chukwu@luxestate.ng",
+    "bio": "Amara built her name representing first-time luxury buyers moving up from family homes into their first standalone villas. She is candid about tradeoffs, walks every client through financing scenarios personally, and maintains one of the highest referral rates on the team.",
+    "languages": [
+      "English",
+      "Igbo",
+      "Pidgin"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/amara.homes",
+      "linkedin": "https://linkedin.com/in/amarachukwu",
+      "twitter": "https://twitter.com/amarasellslux"
+    },
+    "listingIds": [
+      "p002",
+      "p007",
+      "p011",
+      "p016"
+    ],
+    "avatar": {
+      "initials": "AC",
+      "bg": "#F1EFE8",
+      "fg": "#C9A227"
+    }
+  },
+  {
+    "id": "a004",
+    "name": "Ibrahim Sule",
+    "position": "Abuja Regional Manager",
+    "experienceYears": 18,
+    "phone": "+234 807 934 5610",
+    "email": "ibrahim.sule@luxestate.ng",
+    "bio": "Ibrahim has overseen every major Maitama and Asokoro launch LuxEstate has brought to market since 2011. His relationships with diplomatic and government-adjacent buyers make him the first call for any listing that requires absolute discretion.",
+    "languages": [
+      "English",
+      "Hausa",
+      "Arabic"
+    ],
+    "social": {
+      "linkedin": "https://linkedin.com/in/ibrahimsule",
+      "twitter": "https://twitter.com/ibrahimabuja"
+    },
+    "listingIds": [
+      "p003",
+      "p008",
+      "p013",
+      "p017"
+    ],
+    "avatar": {
+      "initials": "IS",
+      "bg": "#DCD6C7",
+      "fg": "#333333"
+    }
+  },
+  {
+    "id": "a005",
+    "name": "Folasade Adewale",
+    "position": "Luxury Apartments Specialist",
+    "experienceYears": 7,
+    "phone": "+234 816 552 9034",
+    "email": "folasade.adewale@luxestate.ng",
+    "bio": "Folasade specializes in high-rise living along Victoria Island and Eko Atlantic, working closely with developers to secure preferred units for her clients before public release. She is known for her sharp eye on service charges, building management quality, and resale trajectory.",
+    "languages": [
+      "English",
+      "Yoruba"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/folasade.skyline",
+      "linkedin": "https://linkedin.com/in/folasadeadewale"
+    },
+    "listingIds": [
+      "p005",
+      "p010",
+      "p015",
+      "p018"
+    ],
+    "avatar": {
+      "initials": "FA",
+      "bg": "#F3E9C9",
+      "fg": "#A2811C"
+    }
+  },
+  {
+    "id": "a006",
+    "name": "Chinedu Eze",
+    "position": "Land & New Developments Lead",
+    "experienceYears": 11,
+    "phone": "+234 809 271 3487",
+    "email": "chinedu.eze@luxestate.ng",
+    "bio": "Chinedu manages LuxEstate's land acquisition and off-plan portfolio, guiding investors through title verification, survey documentation, and government approvals with a thoroughness that has kept every one of his transactions dispute-free.",
+    "languages": [
+      "English",
+      "Igbo"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/chinedu.landlord",
+      "linkedin": "https://linkedin.com/in/chineduezerealty",
+      "twitter": "https://twitter.com/chinedueze"
+    },
+    "listingIds": [
+      "p012",
+      "p020"
+    ],
+    "avatar": {
+      "initials": "CE",
+      "bg": "#E8E4DB",
+      "fg": "#5C5C5C"
+    }
+  }
+]
